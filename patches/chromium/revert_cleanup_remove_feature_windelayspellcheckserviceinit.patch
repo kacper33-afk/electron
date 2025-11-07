@@ -672,10 +672,10 @@ index 20e73dd66865f1d7573adc092d8747e3b3252cfd..0bec57f9a7276c3623edd4fcf009d7b3
        // could be the result of the first click in editable content), then
        // complete the text check request when the dictionaries are loaded.
 diff --git a/components/spellcheck/renderer/spellcheck_provider_test.cc b/components/spellcheck/renderer/spellcheck_provider_test.cc
-index 04dcb599f5dd93d3e381c243e5ba81fbec8a3790..12c32fd631ff93f1d1ff3c7d2a19924e8909c099 100644
+index 7e2862b645b139375ef646357b9037f172eb47b4..bc02b137e2adee093ed14db8cd3544cdd0a3311f 100644
 --- a/components/spellcheck/renderer/spellcheck_provider_test.cc
 +++ b/components/spellcheck/renderer/spellcheck_provider_test.cc
-@@ -188,8 +188,14 @@ void TestingSpellCheckProvider::FillSuggestionList(const std::u16string&,
+@@ -187,8 +187,14 @@ void TestingSpellCheckProvider::FillSuggestionList(const std::u16string&,
  #if BUILDFLAG(IS_WIN)
  void TestingSpellCheckProvider::InitializeDictionaries(
      InitializeDictionariesCallback callback) {
